@@ -45,6 +45,7 @@ body {
   border: 2px solid rgba(241, 236, 236, 0.3);
 }
 
+/*cards*/
 .card {
   background: white;
   border-radius: 1.5rem;
@@ -106,7 +107,8 @@ body {
 /* Practice Session Screen */
 .session-screen {
   min-height: 100vh;
-  background: 135deg, #9f7e6798, #c39b7e98, #93745e98;
+  background: #f0e7d2
+  linear-gradient(135deg, #567c8D, #6a8fa1, #4d6d7e);
   padding: 2rem;
 }
 
@@ -123,7 +125,7 @@ body {
   gap: 0.5rem;
   background: none;
   border: none;
-  color: #5c3236;
+  color: #f4e3bb;
   font-weight: 700;
   cursor: pointer;
   padding: 1rem 1rem;
@@ -131,13 +133,13 @@ body {
 }
 
 .back-btn:hover {
-  color: #963ed4;
+  color: #f4b2ce;
 }
 
 .session-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #984b50;
+  color: #f0e7d2;
 }
 
 .progress-bar-container {
@@ -148,7 +150,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 1rem;
-  color: #984b50;
+  color: #f0e7d2;
   margin-bottom: 0.5rem;
   font-weight: bold;
 }
@@ -218,7 +220,7 @@ body {
 }
 
 .feedback-text {
-  color: #374151;
+  color: #6b8770;
   line-height: 1.6;
 }
 
@@ -250,7 +252,7 @@ body {
 /* Progress Screen */
 .progress-screen {
   min-height: 100vh;
-  background: linear-gradient(135deg, #9f7e6798, #c39b7e98, #93745e98);
+  background:   linear-gradient(135deg, #567c8D, #6a8fa1, #4d6d7e);
   padding: 2rem;
 }
 
@@ -274,14 +276,14 @@ body {
 
 .stat-label {
   font-weight: 600;
-  color: #374151;
+  color: #f5efeb;
   font-size: 0.875rem;
 }
 
 .stat-value {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #5a5379;
+  color: #ffffff;
 }
 
 .session-list {
@@ -311,7 +313,7 @@ body {
 }
 
 .session-info p {
-  font-size: 0.875rem;
+  font-size: 0.99rem;
   color: #6b7280;
   text-transform: capitalize;
 }
@@ -323,7 +325,7 @@ body {
 .accuracy-value {
   font-size: 2rem;
   font-weight: 700;
-  color: #a855f7;
+  color: #0e42f0;
 }
 
 .empty-state {
