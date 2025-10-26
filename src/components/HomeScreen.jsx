@@ -18,10 +18,9 @@ function HomeScreen ({ setScreen }) {
             className="btn btn-primary"
             style={{
               background: 'white',
-              color: '#567c8d'
+              color: '#7c3aed'
             }}
           >
-            
             <Sparkles size={28} />
             Start Lesson
           </button>
