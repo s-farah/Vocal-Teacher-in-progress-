@@ -6,7 +6,7 @@ function HomeScreen ({ setScreen }) {
     <div className="home-screen">
       <div className="home-content">
         <div className="home-icon">
-            <Music size={64} color="white" />
+            <Music size={64} color="white" /> {/*change icon to sign notes */}
         </div>
 
         <h1 className="home-title">AI Vocal Coach</h1>
@@ -18,7 +18,7 @@ function HomeScreen ({ setScreen }) {
             className="btn btn-primary"
             style={{
               background: 'white',
-              color: '#7c3aed'
+              color: '#rgba(120, 92, 246, 0.323)'
             }}
           >
             <Sparkles size={28} />

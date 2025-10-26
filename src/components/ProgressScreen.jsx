@@ -38,7 +38,7 @@ function ProgressScreen({ setScreen }) {
         <div className="stats-grid">
           <div className="stat-card">
             <div className="stat-header">
-              <BarChart3 size={24} color="#a855f7"/>
+              <BarChart3 size={24} color="#05251bff"/>
               <h3 className="stat-label">Total Sessions</h3>
             </div>
             <p className="stat-value">{sessions.length}</p>
@@ -46,7 +46,7 @@ function ProgressScreen({ setScreen }) {
 
           <div className="stat-card">
             <div className="stat-header">
-              <Target size={24} color="#10b981" />
+              <Target size={24} color="#05251bff" />
               <h3 className="stat-label">Avg Accuracy</h3>
             </div>
             <p className="stat-value green">{avgAccuracy}%</p>
