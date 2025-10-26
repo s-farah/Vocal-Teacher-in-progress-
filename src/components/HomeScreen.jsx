@@ -13,6 +13,7 @@ function HomeScreen ({setScreen}) {
           </div>
         </div>
         <h1 className="text-6xl font-bold text-blue-900 mb-4">AI Vocal Coach</h1>
+
         {/* Buttons */}
         <div className="space-y-4">
           <button
@@ -22,6 +23,7 @@ function HomeScreen ({setScreen}) {
             <Sparkles size={28} />
             Start Lesson
           </button>
+          
           <button
             onClick={() => setScreen('progress')}
             className="w-full bg-blue-400/30 hover:bg-blue-400/40 backdrop-blur-lg text-blue-900 font-semibold py-5 px-8 rounded-2xl border-2 border-blue-200/30 transition-all flex items-center justify-center gap-3"
@@ -29,6 +31,7 @@ function HomeScreen ({setScreen}) {
             <TrendingUp size={24} />
             View Progress
           </button>
+
         </div>
 
       </div>
