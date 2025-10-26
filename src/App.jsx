@@ -10,8 +10,7 @@ function App() {
     <>
     {currentScreen === 'home' && <HomeScreen setScreen={setCurrentScreen} />}
     {currentScreen === 'session' && <SessionScreen setScreen={setCurrentScreen} />}
-    {currentScreen === 'progress' && <ProgressScreen setScreen={setCurrentScreen} />}
-    </>
+    {currentScreen === 'progress' && <ProgressScreen setScreen={setCurrentScreen} />}    </>
   );
 }
 
