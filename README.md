@@ -1,3 +1,5 @@
+scrapped calhacks idea: create an ai agent that is a vocal instructor using elevenlabs voice/singing features and postmans flows. 
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
