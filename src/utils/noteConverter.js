@@ -1,3 +1,4 @@
+//not useful
 export function frequencyToNote(frequency) {
     if (!frequency || frequency <= 0) return ''; 
     
@@ -8,5 +9,7 @@ export function frequencyToNote(frequency) {
     const octave = Math.floor((halfSteps + 57) / 12);
     const noteIndex = (halfSteps + 57) % 12;
 
-    return '${notes[noteIndex]}${octave}';
+    //return `${notes[noteIndex]}${octave}`;    
+    return None;
+
 }

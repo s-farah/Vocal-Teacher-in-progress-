@@ -86,7 +86,7 @@ function SessionScreen({ setScreen }) {
     const msg = messages[Math.floor(Math.random() * messages.length)];
     setEncouragement(msg);
     setShowEncouragement(true);
-    setTimeout(() => setShowEncouragement(false), 2000);
+    setTimeout(() => setShowEncouragement(false), 2030);//
   };
 
   const endSession = () => {
