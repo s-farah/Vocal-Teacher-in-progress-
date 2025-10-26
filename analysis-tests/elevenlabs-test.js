@@ -108,16 +108,16 @@ Same voice and identity throughout — the same woman speaking and singing.
 (0:00–0:03) SPEAKING: Naturally says, at a calm, slightly slower pace:
 "Let's warm up together. We'll use a five-note scale on 'mah.'"
 
-(0:04–0:11) SINGING: Smoothly sings:
+(0:04–0:11) SINGING: in a five-note scale on 'mah' as instructed in these keys consecutively:
 A3, B3, C#4, D4, E4, D4, C#4, B3, A3.
-Maintain even rhythm, breath support, and legato phrasing.
+Maintain  rhythm, breath support, and legato phrasing.
 
 (0:12–0:15) SPEAKING: Continues naturally:
 "Good! Now you try it — keep your tone steady and light."
 
 Make transitions between speech and singing seamless and believable, like a real voice teacher giving a live demonstration.
 Use one consistent mezzo-soprano voice, a cappella, dry studio sound, no reverb.
-Total duration: about fifteen seconds.
+Total duration: about sixteen seconds.
   `.trim();
 
   const res = await fetch("https://api.elevenlabs.io/v1/music/stream", {
@@ -147,7 +147,6 @@ Total duration: about fifteen seconds.
 const mode = process.argv[2];
 
 console.log("ElevenLabs Vocal Coach Tests (Natural Tone Mode)");
-console.log("=================================================\n");
 
 if (mode === "speak" || mode === "1") {
   await testSpeaking();
