@@ -1,4 +1,4 @@
-import Reach from "react";
+import React from "react";
 import { Music, Sparkles, TrendingUp } from 'lucide-react'
 
 function HomeScreen ({setScreen}) {
