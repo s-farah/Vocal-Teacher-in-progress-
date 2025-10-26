@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Home, BarChart, Target, Music } from 'lucide-react';
+import React, { useState, useEffect, useMemo } from 'react';
+import { Home, BarChart3, Target, Music } from 'lucide-react';
 import { loadSessions } from '../services/storageService';
 
 function ProgressScreen({ setScreen }) {
