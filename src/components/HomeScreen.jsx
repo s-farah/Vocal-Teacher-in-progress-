@@ -1,2 +1,2 @@
 import Reach from "react";
-import { Music, Sparkles, }
+import { Music, Sparkles} from 'lucide-react'
