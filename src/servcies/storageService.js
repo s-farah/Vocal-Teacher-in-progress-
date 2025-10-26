@@ -1,5 +1,6 @@
 const STORAGE_KEY = 'vocalCoachSessions';
 
+//save a new session
 export function saveSession(sessionData) {
   try {
     const sessions = loadSessions();
@@ -11,6 +12,7 @@ export function saveSession(sessionData) {
   }
 }
 
+//load all saved all sessions
 export function loadSessions() {
   try {
     const data = localStorage.getItem(STORAGE_KEY);

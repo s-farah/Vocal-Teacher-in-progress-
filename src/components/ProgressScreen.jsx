@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Home, BarChart3, Target, Music } from 'lucide-react';
+import { Home, BarChart, Target, Music } from 'lucide-react';
 import { loadSessions } from '../services/storageService';
 
 function ProgressScreen({ setScreen }) {
@@ -9,9 +9,14 @@ function ProgressScreen({ setScreen }) {
         setSessions(loadSessions());
     }, []);
 
-    const avgAccuracy = sessions.length > 0
-    ? Math.round(sessions.reduce((sum, s ) => sum + s.accuracy, 0) / sessions.length)
-    : 0;
+    //using memos to optimize avgAccuracy
+    const avgAccuracy = useMemo(() => {
+        if (sessions.length === 0) return 0;
+
+        const totalAccuracy = sessions.reduce((sum, session) => sum + (session.accuracy || 0), 0);
+        return Math.round(totalAccuracy / sessions.length);
+    }, [sessions]);
+
 
     return (
     <div className="progress-screen">
