@@ -1,7 +1,7 @@
 import React from "react";
 import { Music, Sparkles, TrendingUp } from 'lucide-react'
 
-function HomeScreen ({setScreen}) {
+function HomeScreen ({ setScreen }) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-100 to-yellow-50 flex items-center justify-center p-6">
       <div className="max-w-2xl w-full text-center">
