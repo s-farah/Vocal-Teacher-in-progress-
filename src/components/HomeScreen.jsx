@@ -1,5 +1,5 @@
 import Reach from "react";
-import { Music, Sparkles} from 'lucide-react'
+import { Music, Sparkles, TrendingUp } from 'lucide-react'
 
 function HomeScreen ({setScreen}) {
   return (
@@ -23,7 +23,7 @@ function HomeScreen ({setScreen}) {
             <Sparkles size={28} />
             Start Lesson
           </button>
-          
+
           <button
             onClick={() => setScreen('progress')}
             className="w-full bg-blue-400/30 hover:bg-blue-400/40 backdrop-blur-lg text-blue-900 font-semibold py-5 px-8 rounded-2xl border-2 border-blue-200/30 transition-all flex items-center justify-center gap-3"
