@@ -82,7 +82,7 @@ function SessionScreen({ setScreen }) {
   };
 
   const showEncouragementPopup = () => {
-    const messages = ['Great job! 🎵', 'Excellent! ⭐', 'Keep going! 💪', 'Nice! 👏'];
+    const messages = ['Great job! 🎵', 'Excellent! ⭐', 'Keep going!', 'Nice! 👏'];
     const msg = messages[Math.floor(Math.random() * messages.length)];
     setEncouragement(msg);
     setShowEncouragement(true);

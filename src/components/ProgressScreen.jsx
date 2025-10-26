@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Home, BarChart3, Target, Music } from 'lucide-react';
-import { loadSessions } from '../servcies/storageService';
+import { loadSessions } from '../services/storageService';
 
-function ProgressScreeen({ setScreen }) {
+function ProgressScreen({ setScreen }) {
     const [sessions, setSessions] = useState([]);
 
     useEffect(() => {
