@@ -18,7 +18,7 @@ function HomeScreen ({ setScreen }) {
             className="btn btn-primary"
             style={{
               background: 'white',
-              color: '#7c3aed'
+              color: '#567c8d'
             }}
           >
             
